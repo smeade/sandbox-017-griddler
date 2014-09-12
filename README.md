@@ -1,6 +1,6 @@
 ## Readme
 
-An application to experiment with [Rails variants](http://edgeguides.rubyonrails.org/4_1_release_notes.html#action-pack-variants). Note the dedicated phone index view which shows only product name.
+An application to experiment with [Rails variants](http://edgeguides.rubyonrails.org/4_1_release_notes.html#action-pack-variants). Variants are an alternative to responsive css. With responsive css, the same html is downloaded on all devices and content is hidden or modified via CSS. Variants, instead, allow us to render different view templates based on device type. Device-specific view templates are easier to author and maintain than multi-purpose templates.
 
 Demo Heroku app is [here](http://sandbox-016-variants.herokuapp.com/).
 
