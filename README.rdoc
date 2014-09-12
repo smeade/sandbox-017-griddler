@@ -1,6 +1,6 @@
 ## Readme
 
-An application to experiment with the [Rails variants](http://edgeguides.rubyonrails.org/4_1_release_notes.html#action-pack-variants). Note the dedicated phone index view which shows only product name.
+An application to experiment with [Rails variants](http://edgeguides.rubyonrails.org/4_1_release_notes.html#action-pack-variants). Note the dedicated phone index view which shows only product name.
 
 Demo Heroku app is [here](http://sandbox-016-variants.herokuapp.com/).
 
