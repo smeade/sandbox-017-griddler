@@ -4,6 +4,12 @@ An application to experiment with [Rails variants](http://edgeguides.rubyonrails
 
 Demo Heroku app is [here](http://sandbox-016-variants.herokuapp.com/).
 
+#### Desktop
+<a href="url"><img src="desktop.png" width="250px" style="border: 1px solid #e7e7e7;" ></a>
+
+#### Mobile
+<a href="url"><img src="ios.png" width="250px" style="border: 1px solid #e7e7e7;"></a>
+
 ## Notes
 
 ## Running the test suite
