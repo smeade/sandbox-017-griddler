@@ -13,9 +13,10 @@
   <%= render 'shared/nav' %>
 
   <section>
-    <aside>Demonstration of </aside>
+    <aside>Demonstration: <%= link_to 'ActionPack Variants', 'http://guides.rubyonrails.org/4_1_release_notes.html#action-pack-variants' %></aside>
     <article>
-      Description here. <%= link_to 'More...', '' %>
+      <b>Render different templates for phone and desktop.</b><br/>
+      View this page on a phone see different layouts. This is an alternative to responsive css. With responsive css, the same html is downloaded on all devices and content is hidden or modified. Variants, instead, render different html. This could make it easier to author and maintain device-spedific view templates.
     </article>
   </section>
 

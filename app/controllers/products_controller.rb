@@ -5,6 +5,11 @@ class ProductsController < ApplicationController
   # GET /products.json
   def index
     @products = Product.all
+    respond_to do |format|
+      format.json
+      format.html          # index.html.erb
+      format.html.phone    # index.html+phone.erb
+    end
   end
 
   # GET /products/1

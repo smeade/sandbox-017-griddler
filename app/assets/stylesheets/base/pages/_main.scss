@@ -1,6 +1,7 @@
 // Enter Neat
 body {
   background-color: #f9f8f6;
+  padding-bottom: 2em;
 }
 
 section {
@@ -39,11 +40,13 @@ article {
   background: white;
   border: 1px solid #d8d1c0;
   padding: 2em;
-  height: calc(75vh - 40px);
+  height: calc(90vh);
 }
 
 #switch {
   margin-top: .8em;
 }
 
-
+#mobile-content {
+  padding: 1em 0 0 1em;
+}
