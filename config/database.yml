@@ -23,11 +23,11 @@ default: &default
 
 development:
   <<: *default
-  database: sandbox-016-variants
+  database: sandbox-017-griddler
 
 test:
   <<: *default
-  database: sandbox-016-variants_test
+  database: sandbox-017-griddler_test
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -50,6 +50,6 @@ test:
 #
 production:
   <<: *default
-  database: sandbox-016-variants_production
-  username: sandbox-016-variants
+  database: sandbox-017-griddler_production
+  username: sandbox-017-griddler
   password: <%= ENV['SANDBOX-016-VARIANTS_DATABASE_PASSWORD'] %>

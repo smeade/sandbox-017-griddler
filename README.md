@@ -1,16 +1,12 @@
 ## Readme
 
-An application to experiment with [Rails variants](http://edgeguides.rubyonrails.org/4_1_release_notes.html#action-pack-variants). Variants are an alternative to responsive css. With responsive css, the same html is downloaded on all devices and content is hidden or modified via CSS. Variants, instead, allow us to render different view templates based on device type. Device-specific view templates are easier to author and maintain than multi-purpose templates.
+An application to experiment with receiving email via the [Griddler gem](https://github.com/thoughtbot/griddler).
 
-Demo Heroku app is [here](http://sandbox-016-variants.herokuapp.com/).
-
-#### Desktop
-<a href="url"><img src="desktop.png" width="250px" style="border: 1px solid #e7e7e7;" ></a>
-
-#### Mobile
-<a href="url"><img src="ios.png" width="250px" style="border: 1px solid #e7e7e7;"></a>
+Demo Heroku app is [here](http://sandbox-017-griddler.herokuapp.com/).
 
 ## Notes
+
+* Sendgrid has a great [write up](http://sendgrid.com/blog/receiving-email-in-your-rails-app-with-griddler/) with step-by-step instruction.
 
 ## Running the test suite
 

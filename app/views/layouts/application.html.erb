@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Sandbox016Variants</title>
+  <title>Sandbox017Griddler</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -13,15 +13,10 @@
 
   <%= render 'shared/nav' %>
 
-  <section id="user-agent">
-    <%= request.user_agent %>
-  </section>
-
   <section>
-    <aside>Demonstration: <%= link_to 'ActionPack Variants', 'http://guides.rubyonrails.org/4_1_release_notes.html#action-pack-variants' %></aside>
+    <aside>Receiving email in your Rails app with <%= link_to 'Griddler', 'https://github.com/thoughtbot/griddler' %> and <%= link_to 'SendGrid', 'http://sendgrid.com/blog/receiving-email-in-your-rails-app-with-griddler/' %></aside>
     <article>
-      <b>Render different templates for phone and desktop.</b><br/>
-      View this page on a phone see different layouts. Variants are an alternative to responsive css. With responsive css, the same html is downloaded on all devices and content is hidden or modified via CSS. Variants, instead, allow us to render different view templates based on device type. Device-specific view templates are easier to author and maintain than multi-purpose templates.
+      "Griddler is a Rails engine that provides an endpoint for services that convert incoming emails to HTTP POST requests. It parses these POSTs and hands off a built email object to a class implemented by you."
     </article>
   </section>
 

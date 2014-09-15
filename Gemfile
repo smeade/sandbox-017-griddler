@@ -25,17 +25,20 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
+# bourbon.io and friends
 gem 'bourbon'
 gem 'neat'
 gem 'bitters'
-
-gem 'faker', github: 'stympy/faker'
 
 # MemCachier
 # https://devcenter.heroku.com/articles/memcachier#rails-3-and-4
 gem 'kgio'
 gem 'memcachier'
 gem 'dalli'
+
+# Other gems
+gem 'faker', github: 'stympy/faker'
+gem 'griddler'
 
 group :development do
   gem "annotate"
